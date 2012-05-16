@@ -3,6 +3,8 @@
   * New upstream release.
   * debian/patches:
     - Added patch to fix resource directory.
+  * debian/control:
+    - Bumped Standards-Version to 3.9.3.
 
  -- Yongzhi Pan <panyongzhi@gmail.com>  Wed, 16 May 2012 22:19:20 +0800
 
