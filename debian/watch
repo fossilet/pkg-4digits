@@ -1,4 +1,6 @@
 # Compulsory line, this is a version 3 file
 version=3
+# Github releases
+https://github.com/fossilet/4digits/tags .*/v?(\d\S*)\.tar\.gz
 # Uncomment to find new files on sourceforge, for debscripts >= 2.9
-http://sf.net/fourdigits/4digits_(.*)\.tar\.bz2
+#http://sf.net/fourdigits/4digits_(.*)\.tar\.bz2
