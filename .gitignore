@@ -1,0 +1,7 @@
+4digits-text
+.project
+.cproject
+.pyproject
+.settings
+*.mo
+*~
