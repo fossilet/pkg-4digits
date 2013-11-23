@@ -1,3 +1,10 @@
+4digits (1.1.4-1) unstable; urgency=low
+  * New upstream release.
+  * debian/patches:
+    - Remove patch to fix resource directory.
+
+ -- Yongzhi Pan <panyongzhi@gmail.com>  Sat, 23 Nov 2013 14:48:51 +0800
+
 4digits (1.1.1-1) unstable; urgency=low
 
   * New upstream release.
