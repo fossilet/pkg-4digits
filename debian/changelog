@@ -2,6 +2,7 @@
   * New upstream release.
   * debian/patches:
     - Remove patch to fix resource directory.
+    - Add patch to change locale path.
 
  -- Yongzhi Pan <panyongzhi@gmail.com>  Sat, 23 Nov 2013 14:48:51 +0800
 
