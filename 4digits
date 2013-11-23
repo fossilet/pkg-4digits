@@ -40,8 +40,8 @@ from glib import GError
 import pango
 
 # For distribution packaging
-#LOCALE_PATH = '/usr/share/locale/'
-LOCALE_PATH = 'locale/'
+LOCALE_PATH = '/usr/share/locale/'
+#LOCALE_PATH = 'locale/'
 
 try:
     import pygtk

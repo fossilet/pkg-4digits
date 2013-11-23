@@ -1,0 +1,13 @@
+--- a/4digits
++++ b/4digits
+@@ -40,8 +40,8 @@
+ import pango
+ 
+ # For distribution packaging
+-#LOCALE_PATH = '/usr/share/locale/'
+-LOCALE_PATH = 'locale/'
++LOCALE_PATH = '/usr/share/locale/'
++#LOCALE_PATH = 'locale/'
+ 
+ try:
+     import pygtk

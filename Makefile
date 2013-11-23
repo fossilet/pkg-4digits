@@ -23,7 +23,7 @@ clean:
 # has no .py extension so we make a temporary symlink.
 update-po:
 	#Update 4digits.pot
-	ln -s 4digits 4digits.py
+	ln -sf 4digits 4digits.py
 	xgettext 4digits.py 4digits-text.c 4digits.glade -o po/4digits.pot -k_ -kN_
 	rm 4digits.py
 	#Update translations
@@ -40,5 +40,5 @@ compile-po:
 install-po:
 	for g in po/*.mo; do \
 		l=`echo $$g | sed -e 's#po/\(.*\)\.mo#\1#'`; \
-		install -D $$g $(INSTALL_DIR)/$$l/LC_MESSAGES/4digits.mo; \
+		install -m644 -D $$g $(INSTALL_DIR)/$$l/LC_MESSAGES/4digits.mo; \
 	done
