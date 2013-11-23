@@ -1,3 +1,6 @@
+Author: Yongzhi Pan <panyongzhi@gmail.com>
+Description: Change locale path for deb package.
+Last-Update: 2013-11-23
 --- a/4digits
 +++ b/4digits
 @@ -40,8 +40,8 @@
