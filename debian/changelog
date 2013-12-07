@@ -1,10 +1,11 @@
 4digits (1.1.4-1) unstable; urgency=low
+
   * New upstream release.
   * debian/patches:
     - Remove patch to fix resource directory.
     - Add patch to change locale path.
 
- -- Yongzhi Pan <panyongzhi@gmail.com>  Sat, 23 Nov 2013 14:48:51 +0800
+ -- Yongzhi Pan <panyongzhi@gmail.com>  Sat, 07 Dec 2013 21:00:00 +0800
 
 4digits (1.1.1-1) unstable; urgency=low
 

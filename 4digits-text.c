@@ -44,8 +44,8 @@
 #define N_(str) str
 
 // For distribution packaging
-//#define LOCALE_PATH "/usr/share/locale/"
-#define LOCALE_PATH "locale/"
+#define LOCALE_PATH "/usr/share/locale/"
+//#define LOCALE_PATH "locale/"
 
 //#define DEBUG
 #define VERSION_STRING "1.1.4"
